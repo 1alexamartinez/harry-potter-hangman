@@ -1,6 +1,8 @@
 # HangmanGame
 This is a Harry Potter themed hangman game built in JavaScript. Object-oriented programming was the focus of how I built this game. The game's code is organized as an object, except for the key events to get the letter guessed.
 
+![hphangmanss](https://user-images.githubusercontent.com/32716502/39531419-17612694-4df9-11e8-95b4-25b61d239aa5.png)
+
 
 # How To Play
 
