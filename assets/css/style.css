@@ -1,0 +1,194 @@
+/*@font-face {
+    font-family: "Heros";
+    src: url(../fonts/hero.ttf) format("truetype");
+}*/
+
+/* General Elements*/
+body {
+    background-image: url("../images/hp.jpg");
+    background-color: #111;
+    font-family: 'Spirax', serif;
+    color: white;
+}
+
+
+/* Classes */
+.load {
+    color: #ff4000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.fa-spinner {
+    font-size: 25px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.message {
+    font-size: 35px;
+    color: #40ff00;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+.navbar-default {
+    background-color: #962200;
+    border-color: #101;
+    padding-bottom: 12px;
+    color: #111;
+    text-shadow: 2px 2px 4px #99cc00;
+}
+.panel .panel-body {
+    background-color: #222;
+    margin: 0px;
+}
+
+.panel {
+    border: 1px solid #444;
+    margin-right: 5px;
+    margin: 0px;
+}
+.liActive,
+.liDisabled {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    cursor: pointer;
+    color: #000;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #5bbbb9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: inline-block;
+}
+.liActive li:hover {
+    background-color: #888;
+    cursor: pointer;
+}
+.liActive {
+    background-color: gold;
+}
+.liDisabled {
+    background-color: red;
+    border: 1px solid #898;
+}
+
+h1{
+    background-color: brown;
+    padding:10px;
+}
+h2 {
+    font-size: 20pt
+    }
+p{
+    font-size: 20pt;
+    color: gold;
+    font-family: serif;
+}
+
+/* IDs */
+#header{
+    /*background-color: brown;*/
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    color: white;
+    font-size: 30pt;
+    padding: 0px;
+}
+#rules {
+    text-align: center;
+    margin-bottom: 0px;
+    /*background: brown;*/
+    color: white;
+    border-bottom: 1px solid #222;
+}
+#category {
+    color: #3399ff;
+}
+#gameWord {
+    margin: 5px 0 5px 0;
+    text-align: center;
+    font-size: 40px;
+}
+#gameWord,
+#word {
+    color: #ffa500;
+}
+#word,
+#copyright{
+    font-family: fantasy;
+}
+#rules {
+    padding: 0px;
+    border-bottom: 2px solid #222;
+}
+#hangman-img-holder {
+    width: 400px;
+    height: 160px;
+    margin-bottom: 15px;
+}
+/*#hangman-img {
+    padding: 2px;
+    /*background-color: #000;*/
+    /*border: 3px solid #222;
+    background-image: url("../images/hp.jpg");
+    height: 300px;
+    width: 400px;
+}*/
+#copyright{
+    color: white;
+}
+#footer{
+    background-color: brown;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#winLose{
+    font-size: 25px ;
+}
+
+#lives{
+    font-size: 25px;
+}
+#scoreArea{
+    margin: 0px;
+}
+
+/* media query */
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (max-width: 414px) {
+    .liActive,
+    .liDisabled {
+        width: 22px;
+        height: 22px;
+        line-height: 20px;
+        margin: 4px;
+    }
+    .panel {
+        margin: 15px;
+    }
+    .panel .panel-body {
+        padding: 12px 0px 0px 12px;
+        background-color: #222;
+    }
+    #hangman-img-holder {
+        margin-top: 10px;
+    }
+    #rules {
+        text-align: left;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .margin-top-20 {
+        margin-top: 10px;
+    }
+}
